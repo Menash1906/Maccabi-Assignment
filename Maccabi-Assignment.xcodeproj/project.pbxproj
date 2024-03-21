@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97069AC72BA9B54C000FB62D /* ProductsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069AC62BA9B54C000FB62D /* ProductsResponseModel.swift */; };
+		97069ACA2BA9B9A0000FB62D /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069AC92BA9B9A0000FB62D /* ProductsViewModel.swift */; };
+		97069ACC2BA9BED9000FB62D /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069ACB2BA9BED9000FB62D /* CategoryCardView.swift */; };
+		97069ACE2BA9C2B2000FB62D /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069ACD2BA9C2B2000FB62D /* CategoryModel.swift */; };
+		97069AD22BAACFE9000FB62D /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069AD12BAACFE9000FB62D /* CategoryListView.swift */; };
+		97069AD42BAAD135000FB62D /* ProductCardVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069AD32BAAD135000FB62D /* ProductCardVIew.swift */; };
+		97069AD62BAAD162000FB62D /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97069AD52BAAD162000FB62D /* ProductListView.swift */; };
 		97A35DDE2BA9AD22003C85A0 /* Maccabi_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A35DDD2BA9AD22003C85A0 /* Maccabi_AssignmentApp.swift */; };
 		97A35DE02BA9AD22003C85A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A35DDF2BA9AD22003C85A0 /* ContentView.swift */; };
 		97A35DE22BA9AD23003C85A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A35DE12BA9AD23003C85A0 /* Assets.xcassets */; };
 		97A35DE52BA9AD23003C85A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A35DE42BA9AD23003C85A0 /* Preview Assets.xcassets */; };
+		97A35DEF2BA9ADFA003C85A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A35DEE2BA9ADFA003C85A0 /* NetworkManager.swift */; };
+		97A35DF42BA9AF79003C85A0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A35DF32BA9AF79003C85A0 /* ProductModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97069AC62BA9B54C000FB62D /* ProductsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsResponseModel.swift; sourceTree = "<group>"; };
+		97069AC92BA9B9A0000FB62D /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		97069ACB2BA9BED9000FB62D /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		97069ACD2BA9C2B2000FB62D /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		97069AD12BAACFE9000FB62D /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		97069AD32BAAD135000FB62D /* ProductCardVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardVIew.swift; sourceTree = "<group>"; };
+		97069AD52BAAD162000FB62D /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		97A35DDA2BA9AD22003C85A0 /* Maccabi-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maccabi-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A35DDD2BA9AD22003C85A0 /* Maccabi_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maccabi_AssignmentApp.swift; sourceTree = "<group>"; };
 		97A35DDF2BA9AD22003C85A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		97A35DE12BA9AD23003C85A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97A35DE42BA9AD23003C85A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97A35DE62BA9AD23003C85A0 /* Maccabi_Assignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Maccabi_Assignment.entitlements; sourceTree = "<group>"; };
+		97A35DEE2BA9ADFA003C85A0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		97A35DF32BA9AF79003C85A0 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97069AC82BA9B990000FB62D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				97069AC92BA9B9A0000FB62D /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		97A35DD12BA9AD22003C85A0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +80,10 @@
 			children = (
 				97A35DDD2BA9AD22003C85A0 /* Maccabi_AssignmentApp.swift */,
 				97A35DDF2BA9AD22003C85A0 /* ContentView.swift */,
+				97069AC82BA9B990000FB62D /* ViewModels */,
+				97A35DF02BA9AEF8003C85A0 /* Models */,
+				97A35DED2BA9ADA5003C85A0 /* Network */,
+				97A35DEC2BA9AD63003C85A0 /* Views */,
 				97A35DE12BA9AD23003C85A0 /* Assets.xcassets */,
 				97A35DE62BA9AD23003C85A0 /* Maccabi_Assignment.entitlements */,
 				97A35DE32BA9AD23003C85A0 /* Preview Content */,
@@ -67,6 +97,35 @@
 				97A35DE42BA9AD23003C85A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97A35DEC2BA9AD63003C85A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97069ACB2BA9BED9000FB62D /* CategoryCardView.swift */,
+				97069AD12BAACFE9000FB62D /* CategoryListView.swift */,
+				97069AD32BAAD135000FB62D /* ProductCardVIew.swift */,
+				97069AD52BAAD162000FB62D /* ProductListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97A35DED2BA9ADA5003C85A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				97A35DEE2BA9ADFA003C85A0 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		97A35DF02BA9AEF8003C85A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97A35DF32BA9AF79003C85A0 /* ProductModel.swift */,
+				97069AC62BA9B54C000FB62D /* ProductsResponseModel.swift */,
+				97069ACD2BA9C2B2000FB62D /* CategoryModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97069AD62BAAD162000FB62D /* ProductListView.swift in Sources */,
+				97069ACA2BA9B9A0000FB62D /* ProductsViewModel.swift in Sources */,
+				97069ACC2BA9BED9000FB62D /* CategoryCardView.swift in Sources */,
+				97A35DEF2BA9ADFA003C85A0 /* NetworkManager.swift in Sources */,
+				97069AD22BAACFE9000FB62D /* CategoryListView.swift in Sources */,
 				97A35DE02BA9AD22003C85A0 /* ContentView.swift in Sources */,
 				97A35DDE2BA9AD22003C85A0 /* Maccabi_AssignmentApp.swift in Sources */,
+				97069ACE2BA9C2B2000FB62D /* CategoryModel.swift in Sources */,
+				97A35DF42BA9AF79003C85A0 /* ProductModel.swift in Sources */,
+				97069AC72BA9B54C000FB62D /* ProductsResponseModel.swift in Sources */,
+				97069AD42BAAD135000FB62D /* ProductCardVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -256,6 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -280,6 +350,16 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -287,8 +367,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Menash.Maccabi-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +391,16 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = "";
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -314,8 +408,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Menash.Maccabi-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

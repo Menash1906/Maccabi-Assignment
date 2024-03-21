@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ProductsViewModel: ObservableObject {
+final class ProductsViewModel: ObservableObject {
     
     @Published var products: [Product] = []
     @Published var error: NetworkError?

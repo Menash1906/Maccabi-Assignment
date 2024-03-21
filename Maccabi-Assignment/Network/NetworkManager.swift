@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-class NetworkManager {
+final class NetworkManager {
     
     // Products endpoint url
-    let endpoint = "https://dummyjson.com/products?limit=100"
+    private let endpoint = "https://dummyjson.com/products?limit=100"
     // Singleton
     static let shared = NetworkManager()
     private init() {}
